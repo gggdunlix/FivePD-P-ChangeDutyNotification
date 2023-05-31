@@ -59,4 +59,7 @@ Beware some errors might occur if a player isn't in a department or has no rank/
 FivePD Will also NOT START if any JSON files are incorrectly formatted!
 
 ### Configuring the 911 image:
+1. Download [OpenIV](openiv.org/)
+2. open the `CHAR_CALL911.ytd` file from your `stream` folder with OpenIV
+3. replace `CHAR_CALL911.dds` with an image of your choice.
 
