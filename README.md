@@ -31,8 +31,6 @@ Allows you to change the duty notification:
 ```
 It should look like: ![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/ca147f60-6a57-4e38-b73f-e0a88dcd6a74)
 
-**4. In the base** `fivepd`  **folder, create a folder named** `stream` **. Upload [This File]() to that.**
-
 
 ## Configuration
 ```
@@ -55,13 +53,37 @@ In this block of code, the text can be edited. Adding some variables inside { cu
 * `{department}` replaces the Short Department Name
 * `{rank}` replaces the Rank
 * You may also use [Fivem Text Formatting](https://docs.fivem.net/docs/game-references/text-formatting/) to use colors and other text formats.
-Beware some errors might occur if a player isn't in a department or has no rank/callsign.
+
+some errors might occur if a player isn't in a department or has no rank/callsign.
 
 FivePD Will also NOT START if any JSON files are incorrectly formatted!
 [JSON Validater](https://jsonlint.com/)
 
 ### Configuring the 911 image:
 1. Download [OpenIV](openiv.org/)
-2. open the `CHAR_CALL911.ytd` file from your `stream` folder with OpenIV
-3. replace `CHAR_CALL911.dds` with an image of your choice. It has to be 64x64
+2. In the base `fivepd`  folder, create a folder named** `stream` . Upload [This File](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/releases/download/ytd/CHAR_CALL911.ytd) to that.
+3. Open OpenIV and click File > Open Folder -> and open your fivepd folder. Double click on `stream`
+
+![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/e4478f2a-ccdc-4a20-b99f-1c83173801fb)
+
+
+4. Turn ON Edit Mode.
+
+![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/56a3c9d9-5416-4d53-ac64-e5dea27bd135)
+
+
+5. open the `CHAR_CALL911.ytd` file from your `stream` folder.
+6. Delete the current `CHAR_CALL911` image. Import another image of your choice using the Import button. Be sure to rename the new image to `CHAR_CALL911` or else it will not load in FiveM.
+
+![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/ebea76d3-aab7-4d4b-93be-37be2c35c5d5)
+
+![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/06703e3f-ab7c-40f3-aac8-20e79276f8c2)
+
+CLICK SAVE!
+
+![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/189aeff7-5f1a-420a-b06d-7b39d5b4bf40)
+
+You should restart your FiveM Server when changing the 911 image. However, when only changing the text with the callouts.json, you can simply `ensure fivepd`.
+
+
 
