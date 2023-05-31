@@ -37,7 +37,7 @@ namespace FivePD_P_ChangeDutyNotification
                 JToken cfg = json["onDuty"];
                 Debug.WriteLine("[FivePD Custom Duty Notification] ~r~Got cfg");
                 Debug.WriteLine(cfg.ToString());
-                string title = cfg["title"].ToString();
+                var title = cfg["title"].ToString();
                 Debug.WriteLine("[FivePD Custom Duty Notification] ~r~Got raw title");
                 title.Replace("{name}", plrData.DisplayName).Replace("{callsign}", plrData.Callsign).Replace("{rank}", plrData.Rank).Replace("{department}", plrData.DepartmentShortName);
                 Debug.WriteLine("[FivePD Custom Duty Notification] ~r~title");
