@@ -29,11 +29,7 @@ Allows you to change the duty notification:
 ```
 It should look like: ![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/ca147f60-6a57-4e38-b73f-e0a88dcd6a74)
 
-**5. In the base** `fivepd`  **folder, create a folder named** `stream` **. Upload [This File]() to that.
-```
-
-```
-
+**5. In the base** `fivepd`  **folder, create a folder named** `stream` **. Upload [This File]() to that.**
 
 
 ## Configuration
