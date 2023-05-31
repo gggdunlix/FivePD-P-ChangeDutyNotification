@@ -9,9 +9,9 @@ Allows you to change the duty notification:
 
 1. Download the latest file from [releases](/releases) and put it in the `plugins` folder
 2. Go to the fivepd `config.json` and set the `"dutyNotification":` to `false` 
-3. 
-4. ![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/cdd42a96-9903-48ec-87f7-108d2c10c129)
-5. add this block of code after the first `{` in the `callouts.json` file:
+
+![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/cdd42a96-9903-48ec-87f7-108d2c10c129)
+3. add this block of code after the first `{` in the `callouts.json` file:
 ```
 "DutyNotification": {
 		"onDuty": {
