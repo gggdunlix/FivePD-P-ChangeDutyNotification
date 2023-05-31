@@ -86,4 +86,6 @@ CLICK SAVE!
 You should restart your FiveM Server when changing the 911 image. However, when only changing the text with the callouts.json, you can simply `ensure fivepd`.
 
 
+## Now with the plugin, you can do things like this!
+![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/1dfb9bae-4432-4572-a66e-c2ed2142c9cc)
 
