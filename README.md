@@ -54,9 +54,11 @@ In this block of code, the text can be edited. Adding some variables inside { cu
 * `{callsign}` replaces the Callsign
 * `{department}` replaces the Short Department Name
 * `{rank}` replaces the Rank
+* You may also use [Fivem Text Formatting](https://docs.fivem.net/docs/game-references/text-formatting/) to use colors and other text formats.
 Beware some errors might occur if a player isn't in a department or has no rank/callsign.
 
 FivePD Will also NOT START if any JSON files are incorrectly formatted!
+[JSON Validater](https://jsonlint.com/)
 
 ### Configuring the 911 image:
 1. Download [OpenIV](openiv.org/)
