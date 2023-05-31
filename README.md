@@ -2,7 +2,8 @@
 
 Allows you to change the duty notification:
 
-![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/6b6496d7-a9f0-442c-be2e-0f792a339a60)
+![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/6b6496d7-a9f0-442c-be2e-0f792a339a60) ![image](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/assets/33298379/c3d7df89-e70e-4ba5-983d-a5c460e8af4e)
+
 
 
 ## Installation
