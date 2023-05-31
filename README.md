@@ -60,7 +60,7 @@ FivePD Will also NOT START if any JSON files are incorrectly formatted!
 [JSON Validater](https://jsonlint.com/)
 
 ### Configuring the 911 image:
-1. Download [OpenIV](openiv.org/)
+1. Download [OpenIV](https://openiv.org/)
 2. In the base `fivepd`  folder, create a folder named** `stream` . Upload [This File](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/releases/download/ytd/CHAR_CALL911.ytd) to that.
 3. Open OpenIV and click File > Open Folder -> and open your fivepd folder. Double click on `stream`
 
