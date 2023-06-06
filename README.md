@@ -8,7 +8,7 @@ Allows you to change the duty notification:
 
 ## Installation
 
-**1. Download the latest file from** [releases](/releases) **and put it in the** `plugins` **folder**
+**1. Download the latest file from** [releases](https://github.com/gggdunlix/FivePD-P-ChangeDutyNotification/releases) **and put it in the** `plugins` **folder**
 
 **2. Go to the fivepd** `config.json` **and set the** `"dutyNotification":` **to** `false` 
 
